@@ -1,2 +1,2 @@
-# Manhurd
+# OrpheusMetis
 School task 
