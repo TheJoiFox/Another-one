@@ -1,2 +1,2 @@
-tr:nth-child(2n+1) { background-color: lightgreen; }
-tr:hover {background-color: #06a79d; }
+tr:nth-child(2n+1) { background-color: lightblue; }
+tr:hover {background-color: lightblue; }
