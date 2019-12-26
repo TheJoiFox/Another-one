@@ -1,0 +1,41 @@
+
+<html lang="en">
+<head>
+	<script>
+function Приветствие(){
+x=document.form.name.value;
+y=document.form.sname.value;
+z=document.form.em.value;
+d=document.form.dt.value;
+alert("Приветствую, "+x+" "+y+". \n Вы зарегестрированны на сайте Професии будущего с такими данными:\n Ваша почта - "+z+" \n Дата рождения - "+d+"")}
+</script>	
+<meta charset="UTF-8">
+<title>Anket</title>	
+</head>
+<body>	
+<body bgcolor="light grey"><h1 align="center">Анкета</font></h1></body>	
+<form name="form"> 
+<fieldset>
+<legend>Заполнить обязательно</legend>
+<p>Фамилия: <input type="text" name="name" placeholder="Введите фамилию"  required>
+<p>Имя: <input type="text" name="sname" placeholder="Введите имя"  required>
+<p>Пароль: <input type="password" name="psw" placeholder="Введите пароль"  required>
+<p>Дата рождения: <input type="date" name="dt" placeholder="Введите дату рождения"   required>
+<p>Email: <input type="email" name="em" placeholder="Введите адрес почты"   required>
+</fieldset>
+<p>
+<fieldset>
+<legend>Заполнить по желанию</legend>
+<p>Ваша пол:
+<p><input type="radio" name="a1">Мужская
+<p><input type="radio" name="a1">Женская
+<p>Чем интересуетесь:
+<p><input type="checkbox" name="b1">Самообразование
+<p><input type="checkbox" name="b2">Кинематограф
+<p><input type="checkbox" name="b3">Геймдев
+<p><input type="checkbox" name="b4">Музыка	
+</fieldset>			
+<p><input type="button" value="Зарегестрироваться" onclick="Приветствие()">
+</form>	
+</body>
+</html>
